@@ -1,0 +1,19 @@
+//
+//  Note.m
+//  RelationshipManager
+//
+//  Created by Nathan Jones on 4/1/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import "Note.h"
+#import "Contact.h"
+
+
+@implementation Note
+
+@dynamic date;
+@dynamic note;
+@dynamic noteFor;
+
+@end

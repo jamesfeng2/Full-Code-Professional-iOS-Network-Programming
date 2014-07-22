@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6114D1C154C3A1D00278FA8 /* AddReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6114D1B154C3A1D00278FA8 /* AddReminderTableViewController.m */; };
+		F6114D38154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6114D33154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6114D39154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6114D35154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6114D3A154C7D8A00278FA8 /* NSObject+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6114D37154C7D8A00278FA8 /* NSObject+MKBlockAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F62E6FBF152AAA0A00A7D617 /* NotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62E6FBE152AAA0A00A7D617 /* NotesTableViewController.m */; };
+		F65CAA641528E34100167FB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65CAA631528E34100167FB5 /* UIKit.framework */; };
+		F65CAA661528E34100167FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65CAA651528E34100167FB5 /* Foundation.framework */; };
+		F65CAA681528E34100167FB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65CAA671528E34100167FB5 /* CoreGraphics.framework */; };
+		F65CAA6A1528E34100167FB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65CAA691528E34100167FB5 /* CoreData.framework */; };
+		F65CAA701528E34100167FB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F65CAA6E1528E34100167FB5 /* InfoPlist.strings */; };
+		F65CAA721528E34100167FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA711528E34100167FB5 /* main.m */; };
+		F65CAA761528E34100167FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA751528E34100167FB5 /* AppDelegate.m */; };
+		F65CAA791528E34100167FB5 /* RelationshipManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA771528E34100167FB5 /* RelationshipManager.xcdatamodeld */; };
+		F65CAA951528F3F100167FB5 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA941528F3F100167FB5 /* Model.m */; };
+		F65CAA9C152932D700167FB5 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA9B152932D700167FB5 /* Note.m */; };
+		F65CAA9F152932D700167FB5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAA9E152932D700167FB5 /* Contact.m */; };
+		F65CAAA615293FA400167FB5 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAAA515293FA400167FB5 /* ContactsTableViewController.m */; };
+		F65CAAA91529437F00167FB5 /* ContactDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAAA81529437F00167FB5 /* ContactDetailTableViewController.m */; };
+		F65CAAAC1529439300167FB5 /* AddContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CAAAB1529439300167FB5 /* AddContactTableViewController.m */; };
+		F67341F015FEDA9900FFE1EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F67341EC15FEDA9900FFE1EB /* Default.png */; };
+		F67341F115FEDA9900FFE1EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67341ED15FEDA9900FFE1EB /* Default@2x.png */; };
+		F67341F215FEDA9900FFE1EB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F67341EE15FEDA9900FFE1EB /* icon.png */; };
+		F67341F315FEDA9900FFE1EB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67341EF15FEDA9900FFE1EB /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6114D1A154C3A1D00278FA8 /* AddReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderTableViewController.h; sourceTree = "<group>"; };
+		F6114D1B154C3A1D00278FA8 /* AddReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderTableViewController.m; sourceTree = "<group>"; };
+		F6114D31154C7D8A00278FA8 /* MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockAdditions.h; sourceTree = "<group>"; };
+		F6114D32154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		F6114D33154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		F6114D34154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		F6114D35154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		F6114D36154C7D8A00278FA8 /* NSObject+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		F6114D37154C7D8A00278FA8 /* NSObject+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		F62E6FBD152AAA0A00A7D617 /* NotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewController.h; sourceTree = "<group>"; };
+		F62E6FBE152AAA0A00A7D617 /* NotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewController.m; sourceTree = "<group>"; };
+		F65CAA5F1528E34100167FB5 /* RelationshipManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelationshipManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65CAA631528E34100167FB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F65CAA651528E34100167FB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F65CAA671528E34100167FB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F65CAA691528E34100167FB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F65CAA6D1528E34100167FB5 /* RelationshipManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelationshipManager-Info.plist"; sourceTree = "<group>"; };
+		F65CAA6F1528E34100167FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F65CAA711528E34100167FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65CAA731528E34100167FB5 /* RelationshipManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelationshipManager-Prefix.pch"; sourceTree = "<group>"; };
+		F65CAA741528E34100167FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F65CAA751528E34100167FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F65CAA781528E34100167FB5 /* RelationshipManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RelationshipManager.xcdatamodel; sourceTree = "<group>"; };
+		F65CAA931528F3F100167FB5 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F65CAA941528F3F100167FB5 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F65CAA9A152932D700167FB5 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		F65CAA9B152932D700167FB5 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		F65CAA9D152932D700167FB5 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		F65CAA9E152932D700167FB5 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		F65CAAA415293FA400167FB5 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		F65CAAA515293FA400167FB5 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		F65CAAA71529437F00167FB5 /* ContactDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailTableViewController.h; sourceTree = "<group>"; };
+		F65CAAA81529437F00167FB5 /* ContactDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailTableViewController.m; sourceTree = "<group>"; };
+		F65CAAAA1529439300167FB5 /* AddContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactTableViewController.h; sourceTree = "<group>"; };
+		F65CAAAB1529439300167FB5 /* AddContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactTableViewController.m; sourceTree = "<group>"; };
+		F67341EC15FEDA9900FFE1EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F67341ED15FEDA9900FFE1EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F67341EE15FEDA9900FFE1EB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F67341EF15FEDA9900FFE1EB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65CAA5C1528E34100167FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65CAA641528E34100167FB5 /* UIKit.framework in Frameworks */,
+				F65CAA661528E34100167FB5 /* Foundation.framework in Frameworks */,
+				F65CAA681528E34100167FB5 /* CoreGraphics.framework in Frameworks */,
+				F65CAA6A1528E34100167FB5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6114D30154C7D7A00278FA8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F6114D31154C7D8A00278FA8 /* MKBlockAdditions.h */,
+				F6114D32154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.h */,
+				F6114D33154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.m */,
+				F6114D34154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.h */,
+				F6114D35154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.m */,
+				F6114D36154C7D8A00278FA8 /* NSObject+MKBlockAdditions.h */,
+				F6114D37154C7D8A00278FA8 /* NSObject+MKBlockAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F65CAA541528E34100167FB5 = {
+			isa = PBXGroup;
+			children = (
+				F65CAA6B1528E34100167FB5 /* RelationshipManager */,
+				F65CAA621528E34100167FB5 /* Frameworks */,
+				F65CAA601528E34100167FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65CAA601528E34100167FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA5F1528E34100167FB5 /* RelationshipManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65CAA621528E34100167FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA631528E34100167FB5 /* UIKit.framework */,
+				F65CAA651528E34100167FB5 /* Foundation.framework */,
+				F65CAA671528E34100167FB5 /* CoreGraphics.framework */,
+				F65CAA691528E34100167FB5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F65CAA6B1528E34100167FB5 /* RelationshipManager */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA741528E34100167FB5 /* AppDelegate.h */,
+				F65CAA751528E34100167FB5 /* AppDelegate.m */,
+				F65CAAA015293F7900167FB5 /* UI */,
+				F65CAA8E1528F27E00167FB5 /* Model */,
+				F67341EB15FEDA7700FFE1EB /* Images */,
+				F65CAA6C1528E34100167FB5 /* Supporting Files */,
+			);
+			path = RelationshipManager;
+			sourceTree = "<group>";
+		};
+		F65CAA6C1528E34100167FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA771528E34100167FB5 /* RelationshipManager.xcdatamodeld */,
+				F65CAA6D1528E34100167FB5 /* RelationshipManager-Info.plist */,
+				F65CAA6E1528E34100167FB5 /* InfoPlist.strings */,
+				F65CAA711528E34100167FB5 /* main.m */,
+				F65CAA731528E34100167FB5 /* RelationshipManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F65CAA8E1528F27E00167FB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA931528F3F100167FB5 /* Model.h */,
+				F65CAA941528F3F100167FB5 /* Model.m */,
+				F65CAA8F1528F28A00167FB5 /* Classes */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F65CAA8F1528F28A00167FB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAA9D152932D700167FB5 /* Contact.h */,
+				F65CAA9E152932D700167FB5 /* Contact.m */,
+				F65CAA9A152932D700167FB5 /* Note.h */,
+				F65CAA9B152932D700167FB5 /* Note.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F65CAAA015293F7900167FB5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F65CAAA415293FA400167FB5 /* ContactsTableViewController.h */,
+				F65CAAA515293FA400167FB5 /* ContactsTableViewController.m */,
+				F65CAAA71529437F00167FB5 /* ContactDetailTableViewController.h */,
+				F65CAAA81529437F00167FB5 /* ContactDetailTableViewController.m */,
+				F65CAAAA1529439300167FB5 /* AddContactTableViewController.h */,
+				F65CAAAB1529439300167FB5 /* AddContactTableViewController.m */,
+				F62E6FBD152AAA0A00A7D617 /* NotesTableViewController.h */,
+				F62E6FBE152AAA0A00A7D617 /* NotesTableViewController.m */,
+				F6114D1A154C3A1D00278FA8 /* AddReminderTableViewController.h */,
+				F6114D1B154C3A1D00278FA8 /* AddReminderTableViewController.m */,
+				F6114D30154C7D7A00278FA8 /* Categories */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F67341EB15FEDA7700FFE1EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F67341EC15FEDA9900FFE1EB /* Default.png */,
+				F67341ED15FEDA9900FFE1EB /* Default@2x.png */,
+				F67341EE15FEDA9900FFE1EB /* icon.png */,
+				F67341EF15FEDA9900FFE1EB /* icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65CAA5E1528E34100167FB5 /* RelationshipManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65CAA881528E34100167FB5 /* Build configuration list for PBXNativeTarget "RelationshipManager" */;
+			buildPhases = (
+				F65CAA5B1528E34100167FB5 /* Sources */,
+				F65CAA5C1528E34100167FB5 /* Frameworks */,
+				F65CAA5D1528E34100167FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelationshipManager;
+			productName = RelationshipManager;
+			productReference = F65CAA5F1528E34100167FB5 /* RelationshipManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65CAA561528E34100167FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F65CAA591528E34100167FB5 /* Build configuration list for PBXProject "RelationshipManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F65CAA541528E34100167FB5;
+			productRefGroup = F65CAA601528E34100167FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65CAA5E1528E34100167FB5 /* RelationshipManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65CAA5D1528E34100167FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65CAA701528E34100167FB5 /* InfoPlist.strings in Resources */,
+				F67341F015FEDA9900FFE1EB /* Default.png in Resources */,
+				F67341F115FEDA9900FFE1EB /* Default@2x.png in Resources */,
+				F67341F215FEDA9900FFE1EB /* icon.png in Resources */,
+				F67341F315FEDA9900FFE1EB /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65CAA5B1528E34100167FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65CAA721528E34100167FB5 /* main.m in Sources */,
+				F65CAA761528E34100167FB5 /* AppDelegate.m in Sources */,
+				F65CAA791528E34100167FB5 /* RelationshipManager.xcdatamodeld in Sources */,
+				F65CAA951528F3F100167FB5 /* Model.m in Sources */,
+				F65CAA9C152932D700167FB5 /* Note.m in Sources */,
+				F65CAA9F152932D700167FB5 /* Contact.m in Sources */,
+				F65CAAA615293FA400167FB5 /* ContactsTableViewController.m in Sources */,
+				F65CAAA91529437F00167FB5 /* ContactDetailTableViewController.m in Sources */,
+				F65CAAAC1529439300167FB5 /* AddContactTableViewController.m in Sources */,
+				F62E6FBF152AAA0A00A7D617 /* NotesTableViewController.m in Sources */,
+				F6114D1C154C3A1D00278FA8 /* AddReminderTableViewController.m in Sources */,
+				F6114D38154C7D8A00278FA8 /* UIActionSheet+MKBlockAdditions.m in Sources */,
+				F6114D39154C7D8A00278FA8 /* UIAlertView+MKBlockAdditions.m in Sources */,
+				F6114D3A154C7D8A00278FA8 /* NSObject+MKBlockAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F65CAA6E1528E34100167FB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65CAA6F1528E34100167FB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F65CAA861528E34100167FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F65CAA871528E34100167FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65CAA891528E34100167FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelationshipManager/RelationshipManager-Prefix.pch";
+				INFOPLIST_FILE = "RelationshipManager/RelationshipManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F65CAA8A1528E34100167FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelationshipManager/RelationshipManager-Prefix.pch";
+				INFOPLIST_FILE = "RelationshipManager/RelationshipManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65CAA591528E34100167FB5 /* Build configuration list for PBXProject "RelationshipManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65CAA861528E34100167FB5 /* Debug */,
+				F65CAA871528E34100167FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65CAA881528E34100167FB5 /* Build configuration list for PBXNativeTarget "RelationshipManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65CAA891528E34100167FB5 /* Debug */,
+				F65CAA8A1528E34100167FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F65CAA771528E34100167FB5 /* RelationshipManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F65CAA781528E34100167FB5 /* RelationshipManager.xcdatamodel */,
+			);
+			currentVersion = F65CAA781528E34100167FB5 /* RelationshipManager.xcdatamodel */;
+			path = RelationshipManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F65CAA561528E34100167FB5 /* Project object */;
+}
